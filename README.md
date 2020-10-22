@@ -11,13 +11,13 @@ dotnet add package Sentry.AspNetCore
 ...or [Paket](https://fsprojects.github.io/Paket):
 
 ```bash
-paket add Sentry.AspnetCore
+paket add Sentry.AspNetCore
 ```
 
 ...or add it directly into your `.fsproj` file:
 
 ```xml
-<PackageReference Include="Sentry.AspnetCore" Version="3.0.0" />
+<PackageReference Include="Sentry.AspNetCore" Version="3.0.0" />
 ```
 
 - In order to integrate with Sentry, simply add a call to `UseSentry()` when setting up the web host:
