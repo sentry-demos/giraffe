@@ -55,7 +55,7 @@ To run the demo, take the following steps:
 ```
 
 4. Navigate to `http://localhost:5000/throw` to throw an unhandled exception.
-5. On the [sentry.io](https://sentry.io) portal, you should a new issue reported:
+5. On the [sentry.io](https://sentry.io) portal, you should see a new issue reported:
 
 ![Output on the Sentry portal](.assets/sentry-website-output.png)
 
